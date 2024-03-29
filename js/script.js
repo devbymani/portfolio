@@ -94,3 +94,33 @@ document.addEventListener("click", (e) => {
     togglePopup();
   }
 });
+
+// smtpjs - contact form
+/* const contactBtn = document.getElementById("contact-btn");
+
+contactBtn.addEventListener("click", sendMail());
+
+function sendMail() {
+  const params = {
+    form_name: document.getElementById("fullName").value,
+    form_email: document.getElementById("email_id").value,
+    form_message: document.getElementById("message").value,
+  };
+  emailjs
+    .send("service_yhkgy69", "template_5k4hg09", params)
+    .then(function (res) {
+      alert("Success! " + res.status);
+    });
+} */
+
+/* function sendMailForm() {
+  Email.send({
+    Host: "smtp.elasticemail.com",
+    Username: "subramani.porselvan@gmail.com",
+    Password: "password",
+    To: "them@website.com",
+    From: "you@isp.com",
+    Subject: "This is the subject",
+    Body: "And this is the body",
+  }).then((message) => alert(message));
+} */
