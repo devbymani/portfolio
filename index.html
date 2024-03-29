@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <meta name="title" content="Portfolio">
+  <meta name="description" content="Responsive My Portfolio Website">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
+  <!-- Custom Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+
+<body>
+
+  <!-- Preloader Starts -->
+  <div class="preloader">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <!-- Preloader Ends -->
+
+  <!-- Background Circle Starts -->
+  <div class="bg-circles">
+    <div class="circle-1" style="--clr: blue;"></div>
+    <div class="circle-2" style="--clr: #e02f6b62;"></div>
+    <div class="circle-3" style="--clr: #e02f6b;"></div>
+    <div class="circle-4" style="--clr: #f688bdd7;"></div>
+  </div>
+  <!-- Background Circle Ends -->
+
+  <!-- Overlay Starts -->
+  <div class="overlay"></div>
+  <!-- Overlay Ends -->
+
+  <!-- Main Starts -->
+  <div class="main">
+
+    <!-- Header Section Starts -->
+    <header class="header">
+      <div class="container">
+        <div class="row flex-end">
+          <button type="button" class="nav-toggler">
+            <span></span>
+          </button>
+          <nav class="nav">
+            <div class="nav-inner">
+              <ul>
+                <li><a href="#home" class="nav-item link-item">home</a></li>
+                <li><a href="#about" class="nav-item link-item">about</a></li>
+                <li><a href="#portfolio" class="nav-item link-item">portfolio</a></li>
+                <li><a href="#contact" class="nav-item link-item">contact</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- Header Section Ends -->
+
+    <!-- Home Section Starts -->
+    <section id="home" class="home-container align-center active">
+      <div class="container">
+        <div class="row align-center">
+          <div class="home-text">
+            <p>Hello, I'm</p>
+            <h1>subramani porselvan</h1>
+            <h2>frontend developer</h2>
+            <a href="#about" class="btn link-item">about me</a>
+            <a href="#portfolio" class="btn link-item">portfolio</a>
+          </div>
+          <div class="home-img">
+            <div class="img-box">
+              <img src="./img/profile-pic.png" alt="profile">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home Section Ends -->
+
+    <!-- About Section Starts -->
+    <section id="about" class="about-section section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>about me</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="about-img">
+            <div class="img-box">
+              <img src="./img/about-pic.png" alt="About Picture">
+            </div>
+          </div>
+          <div class="about-text">
+            <p>
+              My name is Subramani Porselvan and I am a <span>web designer</span>. And I'm very passionate and dedicated
+              to my work.
+              With <span>2 years of experience as a professional web designer</span>, I have acquired the skills and
+              knowledge
+              necessary to make your project a success. I enjoy every step of the design process, from discussion to
+              collaboration. Thanks a lot for your attention and your trust!
+            </p>
+            <!-- Skills Starts -->
+            <h3>skills</h3>
+            <div class="skills">
+              <div class="skill-items"><span class="case">html</span></div>
+              <div class="skill-items"><span class="case">css</span></div>
+              <div class="skill-items">javascript</div>
+              <div class="skill-items">sass</div>
+              <div class="skill-items">tailwind <span class="case">css</span></div>
+              <div class="skill-items">wordpress</div>
+              <div class="skill-items">angular</div>
+              <div class="skill-items">photoshop</div>
+              <div class="skill-items">github</div>
+            </div>
+            <!-- Skills Ends -->
+
+            <div class="about-tabs">
+              <button type="button" class="tab-item active" data-target="#experience">experience</button>
+              <button type="button" class="tab-item" data-target="#education">education</button>
+              <button type="button" class="tab-item" data-target="#certification">certification</button>
+            </div>
+
+            <!-- Experience Starts -->
+            <div class="tab-content active" id="experience">
+              <div class="timeline">
+                <div class="timeline-item">
+                  <span class="date">2021 - 2023</span>
+                  <h4>web designer - <span>integra software solution pvt ltd</span></h4>
+                  <ul>
+                    <li>Assisted in testing new <span>website designs, layouts</span>, and content using the A/B testing
+                      method.</li>
+                    <li><span>Designed new features</span> for existing websites.</li>
+                    <li>Developing and <span>designing new website</span> features.</li>
+                    <li>Gathered all project requirements with <span>95% fidelity to client needs</span></li>
+                  </ul>
+                </div>
+                <div class="timeline-item">
+                  <span class="date">2017 - 2021</span>
+                  <h4>epub developer - <span>lumina datamatics pvt ltd</span></h4>
+                  <ul>
+                    <li>
+                      <span>Creating ePubs, audio splitting, and checking audio prompts</span> on digital platforms such
+                      as
+                      Pearson, Cypress, and Learnosity.
+                    </li>
+                    <li>
+                      Creating interactive ePub formats such as <span>reflowable and fixed layouts</span>.
+                    </li>
+                    <li>
+                      Customized ePub files for specific readers and platforms, including
+                      <span>
+                        Amazon Kindle, Apple iBooks,
+                        and Android devices
+                      </span>.
+                    </li>
+                    <li>
+                      <span>Proofread</span> and edit ePub files to <span>correct typographical and formatting
+                        errors</span>.
+                    </li>
+                  </ul>
+                </div>
+                <div class="timeline-item">
+                  <span class="date">2013 - 2015</span>
+                  <h4>banking and financial - <span>datamatics global solution</span></h4>
+                  <ul>
+                    <li>Proven experience as <span>file clerk</span></li>
+                    <li>Knowledge of filling systems</li>
+                    <li>Good knowledge of <span>MS office</span>.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Experience Ends -->
+
+            <!-- Education Starts -->
+            <div class="tab-content" id="education">
+              <div class="timeline">
+                <div class="timeline-item">
+                  <span class="date">2013 - 2016</span>
+                  <h4>bachelor of business administration - <span>saradha gangadharan college</span></h4>
+                </div>
+                <div class="timeline-item">
+                  <span class="date">2012 - 2013</span>
+                  <h4>higher secondary - <span>jeevanandam govt hr sec school</span></h4>
+                </div>
+              </div>
+            </div>
+            <!-- Education Ends -->
+
+            <!-- Certification Starts -->
+            <div class="tab-content" id="certification">
+              <div class="timeline">
+                <div class="timeline-item">
+                  <span class="date">2023 - 2024</span>
+                  <h4>MEAN stack developer</h4>
+                  <p>
+                    <span>MEAN focuses on a free, user-friendly, and open-source JavaScript</span> software stack to
+                    <span>
+                      create dynamic
+                      websites
+                    </span> and robust <span>web applications</span>, with its technology stack. <span>MEAN includes
+                      MongoDB (M), ExpressJS (E), AngularJS (A) and NodeJS (N)</span>. Right from the client to the
+                    server and back,
+                    everything is dependent on JavaScript. It gives an organized <span>way to create</span> faster
+                    prototypes for
+                    <span>web-based applications</span>.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Certification Ends -->
+
+            <a href="#" class="btn link-item">download cV</a>
+            <a href="#contact" class="btn link-item">contact me</a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section Ends -->
+
+    <!-- Portfolio Section Starts -->
+    <section id="portfolio" class="portfolio-section section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>recent works</h2>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Portfolio Item Starts -->
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="./img/portfolio/1.jpg" alt="portfolio thumbs">
+            </div>
+            <h3 class="portfolio-item-title">education course website</h3>
+            <button type="button" class="btn view-project-btn">view project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem omnis, fugit officia voluptates
+                  ipsum, numquam iusto tempore rem dignissimos neque eligendi in, ratione eius fugiat deserunt
+                  blanditiis? Officia consequuntur vel incidunt fugit, veritatis omnis assumenda?
+                </p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>4 Dec 2024</span></li>
+                  <li>technologies used - <span>html, css</span></li>
+                  <li>Role - <span>Frontend</span></li>
+                  <li>View Online - <span><a href="#" target="_blank">www.domain.com</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Item Ends -->
+          <!-- Portfolio Item Starts -->
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="./img/portfolio/2.jpg" alt="portfolio thumbs">
+            </div>
+            <h3 class="portfolio-item-title">personal portfolio website</h3>
+            <button type="button" class="btn view-project-btn">view project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem omnis, fugit officia voluptates
+                  ipsum, numquam iusto tempore rem dignissimos neque eligendi in, ratione eius fugiat deserunt
+                  blanditiis? Officia consequuntur vel incidunt fugit, veritatis omnis assumenda?
+                </p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>4 Dec 2024</span></li>
+                  <li>technologies used - <span>Bootstrap 5</span></li>
+                  <li>Role - <span>Frontend</span></li>
+                  <li>View Online - <span><a href="#" target="_blank">www.domain.com</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Item Ends -->
+          <!-- Portfolio Item Starts -->
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="./img/portfolio/3.jpg" alt="portfolio thumbs">
+            </div>
+            <h3 class="portfolio-item-title">app landing page</h3>
+            <button type="button" class="btn view-project-btn">view project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem omnis, fugit officia voluptates
+                  ipsum, numquam iusto tempore rem dignissimos neque eligendi in, ratione eius fugiat deserunt
+                  blanditiis? Officia consequuntur vel incidunt fugit, veritatis omnis assumenda?
+                </p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>4 Dec 2024</span></li>
+                  <li>technologies used - <span>html, css</span></li>
+                  <li>Role - <span>Frontend</span></li>
+                  <li>View Online - <span><a href="#" target="_blank">www.domain.com</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Item Ends -->
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section Ends -->
+
+    <!-- Contact Section Starts -->
+    <section id="contact" class="contact-section section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>contact me</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="contact-form">
+            <form>
+              <div class="row">
+                <div class="input-group">
+                  <input type="text" placeholder="your name" class="input-control" required>
+                </div>
+                <div class="input-group">
+                  <input type="text" placeholder="email" class="input-control" required>
+                </div>
+                <div class="input-group">
+                  <input type="text" placeholder="subject" class="input-control" required>
+                </div>
+                <div class="input-group">
+                  <textarea placeholder="message" class="input-control" required></textarea>
+                </div>
+                <div class="submit-btn">
+                  <button type="submit" class="btn">send message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="contact-info">
+            <div class="contact-info-item">
+              <h3>Email</h3>
+              <p><a href="mailto:subramani.porselvan@gmail.com">subramani.porselvan@gmail.com</a></p>
+            </div>
+            <div class="contact-info-item">
+              <h3>Phone</h3>
+              <p><a href="tel:+919750597073">+91 975 059 7073</a></p>
+            </div>
+            <div class="contact-info-item">
+              <h3>follow me</h3>
+              <div class="social-links">
+                <a href="https://facebook.com/crz.mani" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://instagram.com/crzy.mani" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/919750597073?text=Hello" target="_blank"><i
+                    class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://github.com/devbymani" target="_blank"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section Ends -->
+  </div>
+  <!-- Main Ends -->
+
+  <!-- Portfolio Item Details Popup Starts -->
+  <div class="portfolio-popup">
+    <div class="pp-inner">
+      <div class="pp-content">
+        <div class="pp-header">
+          <button type="button" class="pp-btn pp-close">
+            <i class="fas fa-times"></i>
+          </button>
+          <div class="pp-thumbnail">
+            <img src="./img/portfolio/1.jpg" alt="pp-thumbnail">
+          </div>
+          <h3></h3>
+        </div>
+        <div class="pp-body">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio Item Details Popup Ends -->
+
+  <!-- Custom JS -->
+  <script src="/js/script.js"></script>
+
+</body>
+
+</html>
